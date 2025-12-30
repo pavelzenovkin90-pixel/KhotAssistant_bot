@@ -2,8 +2,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.environ.get("BOT_TOKEN")
-CHANNEL_ID = os.environ.get("CHANNEL_ID")
+TOKEN = os.environ.get("8319813772:AAFBzFs9JBZ3pt0zXlF7KihUXdol2KPS11U")
+CHANNEL_ID = os.environ.get("-1003606497142")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Бот KhotAssistant запущен!")
@@ -22,3 +22,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
